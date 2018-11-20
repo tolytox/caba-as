@@ -1,0 +1,648 @@
+  
+
+
+  @media screen and (max-width:1120px) {
+
+      header{
+    display: none;
+  }
+
+
+  #menu-responsive {
+    display: block;
+  }
+
+  /*  header*/
+
+ .list-link-head-after{
+  width: 80%;
+ }
+
+  /*  pagina noticias*/
+
+  .noticia-2 , .noticia-3 {
+    width: 100%;
+    height: 300px;
+  }
+
+  /*  pagina proyectos
+*/
+
+.grid-item--width2 {
+  width: 99% !important;
+}
+  
+.grid-item {
+  width: 32.1%;
+}
+
+.menu-banner-ventajas {
+  width: 50%;
+}
+
+/*
+pagina ventajas */
+
+#container-banner-construccion{
+  width: 100%;
+}
+
+.card-construccion{
+  width: 100%;
+  margin-left: 0;
+}
+
+.card-construccion #img-banner-1{
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  margin-left: 0;
+}
+
+#text-banner-contruccion {
+  order: 1;
+  width: 80%;
+}
+
+#textcard-banner-contruccion{
+  order: 2;
+  width: 80%;
+}
+
+#container-banner-construccion .lSSlideOuter .lSPager.lSpg{
+  right: 45.5%;
+}
+
+#text-banner-contruccion .articles-banner{
+  margin-left: 0;
+}
+
+.content-banner-replicable {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.img-banner-replicable{
+  width: 100%;
+}
+
+.content-slide-replicable{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card-banner-replicable{
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#content-rendimiento{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#content-slide-rendimiento{
+  order: 2;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.text-rendimiento {
+  order: 1;
+  margin-bottom: 10px;
+}
+
+#content-subestructura{
+  margin-top: 30px;
+}
+
+#content-proyectos-destacados::after{
+  left: 0;
+  width: 100%;
+}
+
+/*pagina contacto*/
+
+#call-contacto{
+  flex-direction: column;
+}
+
+#phone{
+  margin-top: 20px;
+}
+/*
+pagina index*/
+
+#content-proyectos-destacados {
+  flex-direction: column;
+  flex-wrap: initial;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#img-proyectos-destacados {
+  width: 100%;
+  order: 2;
+}
+
+#content-slide-proyectos-destacados {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.number-proyecto{
+  width: 40%;
+  align-self: center !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#first-counter{
+  display: initial;
+}
+
+/*pre-home*/
+
+#pre-home {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+
+}
+
+.service {
+  width: 100%;
+  height: 300px;
+  border-style: none;
+}
+
+.sub_velo_black {
+  height: 23%;
+  opacity: 0.5;
+}
+
+.sub_velo_blue{
+  height: 30%;
+}
+
+.logo_banner{
+  height: 100%;
+}
+
+.logo_banner .logo_banner_4 img{
+  width: 120px;
+}
+
+.logo_banner_4 .button-explorar{
+  display: none;
+}
+
+.title_banner_4{
+  display: none;
+}
+
+.item-animation{
+  width: 100%;
+  left: 0;
+  top: 40vh;
+  display: none;
+}
+
+.title_banner_prehome{
+  opacity: 1;
+}
+
+.item-animation-responsive {
+  display: flex;
+} 
+
+
+}
+
+ @media screen and (max-width:1002px) {
+
+#footer-content .list-link-head{
+  width: 72%;
+}
+
+footer #logo{
+  margin-left: 7%;
+}
+
+  .page_index {
+padding-top: 150px;
+ }
+
+ #footer-logos{
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-logos  img{
+  width: 100px;
+  height: auto;
+}
+ 
+}
+
+  @media screen and (max-width:832px) {
+
+  /*  pagina noticias*/
+
+  .noticia-1 {
+    flex-wrap: wrap;
+    height: auto;
+
+  }
+
+  .noticia-1 .text-noticia{
+    order: 2;
+    width: 100%;
+        padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 30px;
+  }
+
+  .noticia-1 .text-noticia h4{
+   margin-top:10px;
+    width: 100%;
+  }
+  .noticia-1 .img-noticia{
+    order: 1;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+  }
+
+/*  footer*/
+
+#footer-content{
+  padding-top: 30px;
+}
+
+.list-link{
+  margin-bottom: 30px;
+}
+
+
+
+
+
+  #footer-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+ /* pagina proyectos*/
+
+.grid-item {
+  width: 48%;
+}
+
+ /* pagina contacto*/
+
+.container-contacto {
+  width: 90%;
+  flex-direction: column;
+}
+
+#container-call_and_contact{
+  width: 100%;
+}
+
+#container-chile{
+  width: 100%;
+}
+
+/*pagina index*/
+
+.banner-head-numbers{
+  margin-left: 5%;
+}
+
+#content-aplicaciones {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: inherit;
+    height: auto;
+    width: 100%;
+}
+
+#content-slide-aplicaciones {
+    order: 2;
+    width: 100%;
+}
+
+#text-aplicaciones{
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+#content-text-aplicaciones{
+  width: 90%;
+      margin-left: auto;
+    margin-right: 7%;
+}
+
+.right #content-text-aplicaciones{
+  margin-right: auto;
+  margin-left: 7%;
+}
+
+#content-slide-clientes{
+  align-self: center;
+}
+
+#content-pisos-modulares {
+  flex-direction: column;
+  flex-wrap: initial;
+  align-items: center;
+}
+
+#text-pisos-modulares {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#mod-pisos-modulares {
+  width: 100%;
+  margin-left: 0;
+}
+
+#title-galery::after {
+    content: "";
+    position: absolute;
+    top: -70px;
+    left: -12%;
+    border-bottom-color: #E41C24;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: 100%;
+    height: 30px;
+    z-index: 30;
+    opacity: 0.3;
+  }
+
+  #container-banner-galery {
+    width: 100%;
+  }
+
+  #title-galery {
+    margin-left: 5%;
+  }
+
+}
+
+ @media screen and (max-width:663px) {
+
+  #footer-content {
+    flex-direction: column-reverse;
+  }
+
+  #footer-content .list-link-head {
+   position: relative;
+    height: auto;
+    flex-direction: column;
+    width: 100%;
+    right: 0px;
+        border-color: transparent;
+  }
+
+    footer #logo{
+      margin-left: auto;
+    }
+
+  .ubicacion h1::after{
+    display: none;
+  }
+   .ubicacion h1::before{
+    display: none;
+  }
+
+   .contacto h1::after{
+    display: none;
+  }
+   .contacto h1::before{
+    display: none;
+  }
+
+
+
+ }
+
+ @media screen and (max-width:570px) {
+  .line-top, .line-left{
+    display: none;
+  }
+
+  .banner-head-contenido {
+    height: 500px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 28pt;
+}
+
+#menu-responsive{
+  top: 18px;
+}
+
+ }
+ @media screen and (max-width:508px) {
+
+  h1{
+    font-size: 28pt;
+  }
+
+  .banner-head-text{
+    margin-left: 0%;
+    width: 95%;
+  }
+
+
+.banner-industrias{
+  left: 5%;
+  top: 200px;
+  z-index: 1;
+}
+  #banner-ventajas-contenido .banner-head-text{
+    margin-top: 0;
+  }
+
+.page_industrias {
+  height: 600px !important;
+}
+
+.page_industrias .img-banner-1 {
+  height: 600px !important;
+}
+
+.grid-item {
+  margin: 0;
+}
+
+/*  footer*/
+
+.list-link {
+  width: 280px;
+  align-items: center;
+}
+
+.list-link::after{
+  width: 100%;
+  border-bottom-width: 2px;
+}
+
+/* pagina proyectos*/
+
+.grid-item {
+  width: 99%;
+}
+
+/*pagina ventajas */
+
+#container-banner-construccion{
+  width: 100%;
+}
+
+.card-construccion{
+  width: 100%;
+  margin-left: 0;
+}
+
+.card-construccion #img-banner-1{
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#text-banner-contruccion {
+  order: 1;
+  width: 90%;
+}
+
+#textcard-banner-contruccion{
+  order: 2;
+  width: 100%;
+}
+
+#container-banner-construccion .lSSlideOuter .lSPager.lSpg{
+  right: 35%;
+}
+
+#text-banner-contruccion .articles-banner{
+  margin-left: 0;
+}
+
+.card-banner-replicable {
+  width: 100%;
+  margin-left: 0;
+}
+
+/*paginas industrias*/
+
+#content-normativa{
+  width: 95%;
+}
+
+#content-normativa img{
+  width: 100%;
+}
+
+#content-slide-proyectos-destacados {
+  width: 100%;
+}
+
+.card-proyectos-destacados {
+  margin-left: 5%;
+}
+
+#mod-pisos-modulares{
+  flex-direction: column;
+  flex-wrap: initial;
+  align-items: center;
+ }
+
+ #mod-pisos-modulares .card-modelos {
+  width: 100%;
+ }
+
+
+/*pagina industria*/
+
+.menu-banner-ventajas {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-banner-ventajas article{
+  width: 80%;
+}
+
+#first-counter{
+  display: initial;
+}
+
+/*.banner-head-numbers{
+  margin-left:-5%;
+}*/
+
+.text-rendimiento::after{
+  width: 107%;
+}
+
+#footer-logos{
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-logos  img{
+  width: 100px;
+  height: auto;
+}
+
+}
+
+
+ @media screen and (max-width:425px) {
+  #logo {
+    height: 119px;
+    margin-bottom: -119px;}
+
+  .banner-head-text {
+    margin-bottom: 91px;}
+
+    .banner-head-contenido {
+    height: 384px;}
+
+    #content-text-aplicaciones h1::after {
+    left: 0px;
+    width: 79%;
+}
+
+#content-text-aplicaciones h1::before {
+left: 80%;
+ }
+#content-text-aplicaciones.text-left h1::before {
+    right: 80%;
+    left: initial;
+}}
