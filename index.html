@@ -506,6 +506,29 @@ $('.dynamic-digit').counterUp({
    </div>  
  </footer>
 
+ <script >
+
+  $(function() {
+      $("#submit").click(function() {
+      var data = {
+          nombre: $("#nombre").val(),
+          email: $("#email").val(),
+          telefono: $("#telefono").val(),
+          mensaje: $("#mensaje").val()
+      };
+      $.ajax({
+          type: "POST",
+          url: "send.php",
+          data: data,
+          success: function(){
+              alert("El mensaje fue enviado con éxito");
+          }
+      });
+    });
+  });
+
+</script>
+
 
 </body>
 
