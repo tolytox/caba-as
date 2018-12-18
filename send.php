@@ -40,7 +40,7 @@
 }*/
 
 if ($_POST) {
-   $to      = 'contacto@massimoproducciones.cl';
+   $to      = 'tomas.ortega.aa@gmail.com';
     $subject = 'Contacto | Pagina Web';
     $firstname = $_REQUEST['nombre'];
     $lastname = $_REQUEST['telefono'];
@@ -50,7 +50,7 @@ if ($_POST) {
         "Telefono :".$_REQUEST['telefono']. "\n" .
         "Email :".$_REQUEST['email']. "\n" .
         "Mensaje :".$_REQUEST['mensaje'];
-    $headers = 'From: webmaster@massimoproducciones.cl' . "\r\n" .
+    $headers = 'From: tomas.ortega.aa@gmail.com' . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
     $send_email = mail($to, $subject, $message , $headers);
@@ -58,9 +58,9 @@ if ($_POST) {
     echo "<script language='javascript'>\n";
     echo "  alert('Mensaje enviado con exito!')";
     echo "</script>\n";
-    window.location.replace("http://www.massimoproducciones.cl");
+    window.location.replace("https://tolytox.github.io/caba-as/");
     
-    header("Location: www.massimoproducciones.cl");
+    header("Location: www.tolytox.github.io/caba-as/");
     die();
     exit;
 }
