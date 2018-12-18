@@ -1,23 +1,67 @@
-<?php 
-error_reporting(0); 
-$nombre = $_POST['nombre']; 
-$correo_electronico= $_POST['email']; 
-$asunto = $_POST['asunto']; 
-$mensaje=$_POST['mensaje'];  
-$header = 'From: ' . $mail . ", de la poblacion ".$asunto."\r\n"; 
-$header .= "X-Mailer: PHP/" . phpversion() . " \r\n"; 
-$header .= "Mime-Version: 1.0 \r\n"; 
-$header .= "Content-Type: text/plain"; 
+<?php
+/*if (isset($_REQUEST['nombre'],$_REQUEST['email'])) {
 
-$mensaje = "Este mensaje fue enviado por " . $nombre . " \r\n"; 
-$mensaje .= "Su e-mail es: " . $mail . " \r\n"; 
-$mensaje .= "Enviado el " . date('d/m/Y', time()); 
+    /* $firstname = $_REQUEST['nombre'];
+     $lastname = $_REQUEST['telefono'];
+     $email = $_REQUEST['email'];
+     $message = $_REQUEST['mensaje'];
 
-$para = "tomas.ortega.aa@gmail.com"; 
-$asunto = "cotizar"; 
+     // Set your email address where you want to receive emails.
+     $to = 'test@massimoproducciones.cl';
 
-mail($para, $asunto, utf8_decode($mensaje), $header); 
+     $subject = 'Contacto | Pagina Web';
+     $headers = "From: ".$firstname." <".$email."> \r\n";
 
-echo 'mensaje enviado correctamente'; 
+     $send_email = mail($to,$subject,$message,$lastname,$headers);
 
-?> 
+     var_dump($send_email);  */
+    //echo ($send_email) ? 'success' : 'error';
+
+   /* $to      = 'test@massimoproducciones.cl';
+    $subject = 'Contacto | Pagina Web';
+    $firstname = $_REQUEST['nombre'];
+    $lastname = $_REQUEST['telefono'];
+    $email = $_REQUEST['email'];
+    $message =
+        "Nombre :".$_REQUEST['nombre']. "\n" .
+        "Telefono :".$_REQUEST['telefono']. "\n" .
+        "Email :".$_REQUEST['email']. "\n" .
+        "Mensaje :".$_REQUEST['mensaje'];
+    $headers = 'From: webmaster@massimoproducciones.cl' . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+
+    $send_email = mail($to, $subject, $message , $headers);
+    echo "<script language='javascript'>\n";
+    echo "  alert('Mensaje enviado con exito!')";
+    echo "</script>\n";
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
+    echo ($send_email) ? 'success' : 'error';
+    exit;
+}*/
+
+if ($_POST) {
+   $to      = 'contacto@massimoproducciones.cl';
+    $subject = 'Contacto | Pagina Web';
+    $firstname = $_REQUEST['nombre'];
+    $lastname = $_REQUEST['telefono'];
+    $email = $_REQUEST['email'];
+    $message =
+        "Nombre :".$_REQUEST['nombre']. "\n" .
+        "Telefono :".$_REQUEST['telefono']. "\n" .
+        "Email :".$_REQUEST['email']. "\n" .
+        "Mensaje :".$_REQUEST['mensaje'];
+    $headers = 'From: webmaster@massimoproducciones.cl' . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+
+    $send_email = mail($to, $subject, $message , $headers);
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
+    echo "<script language='javascript'>\n";
+    echo "  alert('Mensaje enviado con exito!')";
+    echo "</script>\n";
+    window.location.replace("http://www.massimoproducciones.cl");
+    
+    header("Location: www.massimoproducciones.cl");
+    die();
+    exit;
+}
+?>
