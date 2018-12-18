@@ -60,7 +60,7 @@ if ($_POST) {
     echo "</script>\n";
     window.location.replace("https://tolytox.github.io/caba-as/");
     
-    header("Location: www.tolytox.github.io/caba-as/");
+    header("Location: https://tolytox.github.io/caba-as/");
     die();
     exit;
 }
