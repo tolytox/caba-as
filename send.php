@@ -54,7 +54,7 @@ if ($_POST) {
         'X-Mailer: PHP/' . phpversion();
 
     $send_email = mail($to, $subject, $message , $headers);
-    header('Location: ' . $_SERVER['HTTP_REFERER']);
+    header('Location: http://www.google.com');
     echo "<script language='javascript'>\n";
     echo "  alert('Mensaje enviado con exito!')";
     echo "</script>\n";
